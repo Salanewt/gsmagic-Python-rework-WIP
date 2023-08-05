@@ -1,0 +1,42 @@
+The purpose of this file is to keep some old/test code handy so I can repurpose it at a later line. At present, I am using a combination of ChatGPT 
+and my own knowledge to convert key files from gsmagic, with the aim of making a comprehensive GS2/AI Overhaul Editor.
+
+Specifically, I have containers planned for a variety of tasks, plus I want to make use of toolbars for anything that might involve pixel/sprite or map editing.
+
+  # def init_ui(self):
+    #     # Create a QWidget container
+    #     container = QFrame(self)
+    #     container.setFrameShape(QFrame.Box)
+    #     container.setLineWidth(1)
+    #     self.setCentralWidget(container)  # Set the container as the central widget
+
+    #     # Create a QVBoxLayout to arrange widgets vertically
+    #     layout = QVBoxLayout()
+    #     container.setLayout(layout)  # Set the layout for the container
+
+    #     # Add your visual elements (widgets) to the layout
+    #     label = QLabel("Hello, PyQt!", container)
+    #     layout.addWidget(label)
+
+    #     button = QPushButton("Click Me!", container)
+    #     layout.addWidget(button)
+
+    #     # Connect the button's clicked signal to a slot (function) that changes the label text
+    #     button.clicked.connect(lambda: label.setText("Button Clicked!"))
+
+        # # Create a QToolBar
+        # toolbar = QToolBar(self)
+        # self.addToolBar(toolbar)
+
+        # # Create a File submenu under the toolbar
+        # file_menu = toolbar.addMenu("File")
+
+        # # Add "Open File" action to the File submenu
+        # open_action = QAction("Open File", self)
+        # open_action.triggered.connect(self.open_file)
+        # file_menu.addAction(open_action)
+
+        # # Add "Save File" action to the File submenu
+        # save_action = QAction("Save File", self)
+        # save_action.triggered.connect(self.save_file)
+        # file_menu.addAction(save_action)
